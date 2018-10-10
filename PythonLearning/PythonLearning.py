@@ -1,3 +1,5 @@
-a=[1,2,3,4,5]
-del(a[0:3])
+import random
+a=[random.randint(1,1000) for i in range(0,20)]
+print(a)
+a[::2]=sorted(a[::2],reverse =True)
 print(a)
