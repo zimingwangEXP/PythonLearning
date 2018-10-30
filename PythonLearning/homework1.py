@@ -10,5 +10,4 @@ def func(url):
  for one in soup.find_all("img"):
     a=one.get("title");
     if(a):print(a+"\n\n")
-func("http://xkcd.com/1883/")
-func("https://xkcd.com/1884/")
+func("http://www.scuinfo.com/")
